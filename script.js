@@ -32,10 +32,10 @@ async function checkEmail() {
         // Display user-friendly message
         if (response.ok) {
             if (data.disposable) {
-                messageOutput.textContent = `The email domain is likely disposable.`;
+                messageOutput.textContent = `The email is likely disposable.`;
                 messageOutput.classList.add('error');
             } else {
-                messageOutput.textContent = `The email domain is not disposable.`;
+                messageOutput.textContent = `The email is not disposable.`;
                 messageOutput.classList.add('success');
             }
         } else {
