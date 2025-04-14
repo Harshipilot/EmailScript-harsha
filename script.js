@@ -16,7 +16,7 @@ async function checkEmail() {
     }
 
     try {
-        const response = await fetch('http://localhost:5000/check_disposable', {
+        const response = await fetch('https://pankajbind.pythonanywhere.com/check_disposable', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
