@@ -17,7 +17,7 @@
 ---
 
 ## 📁 Project File Structure
- '''
+ ```
  emailscript-frontend/
 ├── public/
 │   ├── favicon.ico
@@ -43,7 +43,7 @@
 - `LICENSE.md`: License of the project
 - `README.md`: Documentation
 
-'''
+```
 
 ## 🛠️ Installation
 
