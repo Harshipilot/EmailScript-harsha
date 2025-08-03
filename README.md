@@ -49,5 +49,5 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/emailscript.git
+git clone https://github.com//emailscript.git
 cd emailscript
